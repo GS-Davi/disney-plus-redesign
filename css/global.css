@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+
+  background-color: #1f1f39;
+  background: url('./../img/bg-2.png') no-repeat center;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: 1 / -1;
+}
+.header .menu {
+  cursor: pointer;
+}
+.header img:nth-child(1) {
+  width: 130px;
+  height: 60px;
+}
+.header img:nth-child(2) {
+  width: 46.21px;
+  height: 15px;
+}
